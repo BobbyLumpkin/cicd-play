@@ -8,5 +8,5 @@ from funcs import func1
 
 
 @pytest.mark.unittest
-test_func1():
+def test_func1():
   assert func1() == "Hello, World!"
